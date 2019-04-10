@@ -70,8 +70,8 @@ y_train = y[vfold_size:y.shape[0]]
 
 # 将图像和标签分别导出成trainImagedataset.npy、trainLlabel.npy、testImage.npy、testLabel
 #（4）补充 ↓
-np.save("trainImagedataset.npy",x_test)
-np.save("trainLlabel.npy",x_train)
-np.save("testImage.npy",y_test)
-np.save("testLabel.npy",y_train)
+np.save("trainImagedataset.npy",x_train)
+np.save("trainLlabel.npy",y_train)
+np.save("testImage.npy",x_test)
+np.save("testLabel.npy",y_test)
 #（4）补充 ↑
